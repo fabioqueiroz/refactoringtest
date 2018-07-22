@@ -18,6 +18,7 @@ namespace ConsoleUI
             int i;
             double ttl, t;
             List<TimeSheetEntry> ents = new List<TimeSheetEntry>();
+            TimeSheetEntry ent = new TimeSheetEntry();
 
             Console.Write("Enter what you did: ");
             w = Console.ReadLine();
@@ -25,20 +26,17 @@ namespace ConsoleUI
             Console.Write("How long did you do it for: ");
             rawTimeWorked = Console.ReadLine();
 
-            //t = double.Parse(rawTimeWorked);
             while (double.TryParse(rawTimeWorked, out t) == false)
             {
-                Console.WriteLine();
-                Console.WriteLine("Invalid number");
-                Console.Write("How long did you do it for: ");
-                rawTimeWorked = Console.ReadLine();
-                
+                //Console.WriteLine();
+                //Console.WriteLine("Invalid number");
+                //Console.Write("How long did you do it for: ");
+                //rawTimeWorked = Console.ReadLine();
+
+                WarningManager.RepeatInsert();
+
             }
-
-            
-
-            TimeSheetEntry ent = new TimeSheetEntry();
-
+                     
             ent.HoursWorked = t;
             ent.WorkDone = w;
             ents.Add(ent);
@@ -164,10 +162,4 @@ namespace ConsoleUI
             Console.ReadKey();
         }
     }
-
-    //public class TimeSheetEntry
-    //{
-    //    public string WorkDone;
-    //    public double HoursWorked;
-    //}
 }

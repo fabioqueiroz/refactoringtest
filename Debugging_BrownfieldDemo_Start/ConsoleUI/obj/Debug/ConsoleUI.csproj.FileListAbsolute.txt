@@ -12,3 +12,10 @@ C:\Users\Fabio Queiroz\Desktop\Test\Debugging in C#\Debugging_BrownfieldDemo_Sta
 C:\Users\Fabio Queiroz\Desktop\Test\Debugging in C#\Debugging_BrownfieldDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
 C:\Users\Fabio Queiroz\Desktop\Test\Debugging in C#\Debugging_BrownfieldDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.exe
 C:\Users\Fabio Queiroz\Desktop\Test\Debugging in C#\Debugging_BrownfieldDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.pdb
+C:\Projects\#GitTest\refactoringtest\Debugging_BrownfieldDemo_Start\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Projects\#GitTest\refactoringtest\Debugging_BrownfieldDemo_Start\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Projects\#GitTest\refactoringtest\Debugging_BrownfieldDemo_Start\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Projects\#GitTest\refactoringtest\Debugging_BrownfieldDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Projects\#GitTest\refactoringtest\Debugging_BrownfieldDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Projects\#GitTest\refactoringtest\Debugging_BrownfieldDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Projects\#GitTest\refactoringtest\Debugging_BrownfieldDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.pdb
