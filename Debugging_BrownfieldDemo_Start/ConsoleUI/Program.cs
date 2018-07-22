@@ -165,9 +165,9 @@ namespace ConsoleUI
         }
     }
 
-    public class TimeSheetEntry
-    {
-        public string WorkDone;
-        public double HoursWorked;
-    }
+    //public class TimeSheetEntry
+    //{
+    //    public string WorkDone;
+    //    public double HoursWorked;
+    //}
 }
