@@ -29,12 +29,12 @@ namespace ConsoleUI
 
             while (double.TryParse(rawTimeWorked, out t) == false)
             {
-                Console.WriteLine();
-                Console.WriteLine("Invalid number");
-                Console.Write("How long did you do it for: ");
-                rawTimeWorked = Console.ReadLine();
+                //Console.WriteLine();
+                //Console.WriteLine("Invalid number");
+                //Console.Write("How long did you do it for: ");
+                //rawTimeWorked = Console.ReadLine();
 
-                //WarningManager.RepeatInsert();
+                WarningManager.RepeatInsert();
                 //WarningManager.NewRepeatInsert();
 
             }
@@ -58,9 +58,6 @@ namespace ConsoleUI
 
             else if (answer.ToLower() != "y" || answer.ToLower() != "n")
             {
-                //Console.Write("Insert a valid answer (y/n): ");
-                //answer = Console.ReadLine();
-
                 while (true)
                 {
                     Console.WriteLine();
