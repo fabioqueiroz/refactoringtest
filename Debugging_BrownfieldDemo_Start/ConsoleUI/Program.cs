@@ -10,10 +10,11 @@ using System.Threading.Tasks;
 // demonstration purposes only. You have been warned.
 namespace ConsoleUI
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+
             string w, rawTimeWorked;
             int i;
             double ttl, t;
@@ -28,15 +29,16 @@ namespace ConsoleUI
 
             while (double.TryParse(rawTimeWorked, out t) == false)
             {
-                //Console.WriteLine();
-                //Console.WriteLine("Invalid number");
-                //Console.Write("How long did you do it for: ");
-                //rawTimeWorked = Console.ReadLine();
+                Console.WriteLine();
+                Console.WriteLine("Invalid number");
+                Console.Write("How long did you do it for: ");
+                rawTimeWorked = Console.ReadLine();
 
-                WarningManager.RepeatInsert();
+                //WarningManager.RepeatInsert();
+                //WarningManager.NewRepeatInsert();
 
             }
-                     
+
             ent.HoursWorked = t;
             ent.WorkDone = w;
             ents.Add(ent);
@@ -56,9 +58,8 @@ namespace ConsoleUI
 
             else if (answer.ToLower() != "y" || answer.ToLower() != "n")
             {
-                Console.Write("Insert a valid answer (y/n): ");
-
-                answer = Console.ReadLine();
+                //Console.Write("Insert a valid answer (y/n): ");
+                //answer = Console.ReadLine();
 
                 while (true)
                 {
@@ -161,5 +162,7 @@ namespace ConsoleUI
             Console.Write("Press any key to exit application...");
             Console.ReadKey();
         }
+       
     }
+
 }
