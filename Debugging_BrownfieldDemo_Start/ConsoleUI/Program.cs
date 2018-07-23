@@ -10,14 +10,16 @@ using System.Threading.Tasks;
 // demonstration purposes only. You have been warned.
 namespace ConsoleUI
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+
             string w, rawTimeWorked;
             int i;
             double ttl, t;
             List<TimeSheetEntry> ents = new List<TimeSheetEntry>();
+            TimeSheetEntry ent = new TimeSheetEntry();
 
             Console.Write("Enter what you did: ");
             w = Console.ReadLine();
@@ -25,19 +27,17 @@ namespace ConsoleUI
             Console.Write("How long did you do it for: ");
             rawTimeWorked = Console.ReadLine();
 
-            //t = double.Parse(rawTimeWorked);
             while (double.TryParse(rawTimeWorked, out t) == false)
             {
-                Console.WriteLine();
-                Console.WriteLine("Invalid number");
-                Console.Write("How long did you do it for: ");
-                rawTimeWorked = Console.ReadLine();
-                
+                //Console.WriteLine();
+                //Console.WriteLine("Invalid number");
+                //Console.Write("How long did you do it for: ");
+                //rawTimeWorked = Console.ReadLine();
+
+                WarningManager.RepeatInsert();
+                //WarningManager.NewRepeatInsert();
+
             }
-
-            
-
-            TimeSheetEntry ent = new TimeSheetEntry();
 
             ent.HoursWorked = t;
             ent.WorkDone = w;
@@ -58,10 +58,6 @@ namespace ConsoleUI
 
             else if (answer.ToLower() != "y" || answer.ToLower() != "n")
             {
-                Console.Write("Insert a valid answer (y/n): ");
-
-                answer = Console.ReadLine();
-
                 while (true)
                 {
                     Console.WriteLine();
@@ -163,11 +159,7 @@ namespace ConsoleUI
             Console.Write("Press any key to exit application...");
             Console.ReadKey();
         }
+       
     }
 
-    public class TimeSheetEntry
-    {
-        public string WorkDone;
-        public double HoursWorked;
-    }
 }
