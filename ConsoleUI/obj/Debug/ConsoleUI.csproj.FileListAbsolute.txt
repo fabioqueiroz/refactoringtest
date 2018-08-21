@@ -1,0 +1,17 @@
+c:\users\tim\documents\visual studio 2017\Projects\BrownfieldDemo\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+c:\users\tim\documents\visual studio 2017\Projects\BrownfieldDemo\ConsoleUI\bin\Debug\ConsoleUI.exe
+c:\users\tim\documents\visual studio 2017\Projects\BrownfieldDemo\ConsoleUI\bin\Debug\ConsoleUI.pdb
+c:\users\tim\documents\visual studio 2017\Projects\BrownfieldDemo\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+c:\users\tim\documents\visual studio 2017\Projects\BrownfieldDemo\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+c:\users\tim\documents\visual studio 2017\Projects\BrownfieldDemo\ConsoleUI\obj\Debug\ConsoleUI.exe
+c:\users\tim\documents\visual studio 2017\Projects\BrownfieldDemo\ConsoleUI\obj\Debug\ConsoleUI.pdb
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.pdb
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ConsoleUI\bin\Debug\ProjectLibrary.dll
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ConsoleUI\bin\Debug\ProjectLibrary.pdb
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete

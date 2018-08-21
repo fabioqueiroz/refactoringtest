@@ -1,0 +1,6 @@
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ProjectLibrary\bin\Debug\ProjectLibrary.dll
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ProjectLibrary\bin\Debug\ProjectLibrary.pdb
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ProjectLibrary\obj\Debug\ProjectLibrary.csprojAssemblyReference.cache
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ProjectLibrary\obj\Debug\ProjectLibrary.csproj.CoreCompileInputs.cache
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ProjectLibrary\obj\Debug\ProjectLibrary.dll
+C:\Users\fabio\OneDrive\Desktop\RefactoringDemo_Start\ProjectLibrary\obj\Debug\ProjectLibrary.pdb
